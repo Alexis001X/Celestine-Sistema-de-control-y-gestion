@@ -5,7 +5,7 @@
 ![Version](https://img.shields.io/badge/version-1.2.0-blue.svg)
 ![Python](https://img.shields.io/badge/python-3.8+-green.svg)
 ![PyQt6](https://img.shields.io/badge/PyQt6-6.0+-orange.svg)
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![License](https://img.shields.io/badge/license-Custom-red.svg)
 
 **Sistema completo de facturación para Juntas Administradoras de Agua Potable**
 
@@ -331,7 +331,24 @@ Si encuentras un bug, por favor abre un [Issue](https://github.com/tu-usuario/si
 
 ## 📄 Licencia
 
-Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más detalles.
+Este proyecto está bajo una **Licencia de Uso Personalizada**.
+
+### ✅ Uso Permitido (Gratuito)
+
+- ✓ **Fines educativos**: Instituciones, cursos, talleres, aprendizaje
+- ✓ **Proyectos personales**: Uso no comercial, investigación
+- ✓ **Evaluación**: Prueba y evaluación del software
+- ✓ **Desarrollo**: Modificación y contribuciones al proyecto
+
+### ⚠️ Uso Restringido (Requiere Autorización)
+
+- ✗ **Uso comercial**: Empresas con fines de lucro
+- ✗ **Venta del software**: Redistribución comercial
+- ✗ **Servicios de pago**: Prestación de servicios basados en el software
+
+Para solicitar autorización de uso comercial, contactar al desarrollador.
+
+Ver el archivo [`LICENSE`](LICENSE) para más detalles.
 
 ---
 
