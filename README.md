@@ -159,7 +159,7 @@ Al ejecutar el sistema por primera vez:
 
 ### Credenciales por Defecto
 
-> ⚠️ **Importante**: Cambia las credenciales por defecto después del primer inicio de sesión
+> ⚠️ **Importante**: Se requiere configuracion en la base de datos con la que el sistema trabaje (No incluida)
 
 ```
 Usuario: admin
