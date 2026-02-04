@@ -1,0 +1,305 @@
+# ============================================
+# Sistema de Facturación de Agua - .gitignore
+# ============================================
+
+# ==========================================
+# BASE DE DATOS - CRÍTICO
+# ==========================================
+# No subir bases de datos con información real
+*.db
+*.sqlite
+*.sqlite3
+sistema_facturacion.db
+test_secuencia.db
+importar_bd.db
+*.db.backup*
+*.db-journal
+
+# ==========================================
+# ARCHIVOS DE CONFIGURACIÓN SENSIBLES
+# ==========================================
+config.txt
+*.ini
+*.conf
+.env
+.env.local
+
+# ==========================================
+# ARCHIVOS DE EXPORTACIÓN E INSTALADORES
+# ==========================================
+# Carpeta de distribución
+dist/
+build/
+*.exe
+*.msi
+*.zip
+*.rar
+*.7z
+
+# Instaladores específicos
+INSTALADOR_*.txt
+instalador_*.bat
+*.spec
+
+# ==========================================
+# ARCHIVOS GENERADOS POR LA APLICACIÓN
+# ==========================================
+# PDFs generados
+facturas_pdf/*.pdf
+!facturas_pdf/.gitkeep
+
+# Reportes generados
+reportes/*.pdf
+reportes/*.xlsx
+reportes/*.csv
+!reportes/.gitkeep
+
+# Logs del sistema
+logs/*.txt
+logs/*.log
+!logs/.gitkeep
+
+# Backups
+backups/*.db
+backups/*.backup
+!backups/.gitkeep
+
+# ==========================================
+# ARCHIVOS DE DOCUMENTACIÓN TEMPORAL
+# ==========================================
+COMPARACION_VERSIONES.txt
+CORRECCIONES_BD_APLICADAS.txt
+CORRECCION_SECUENCIA_FACTURAS.txt
+INSTALACION_PRODUCCION.txt
+NOTAS_*.txt
+README_INSTALADORES.txt
+
+# ==========================================
+# PYTHON
+# ==========================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# C extensions
+*.c
+*.cpp
+*.pyd
+
+# Distribution / packaging
+.Python
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# pdm
+.pdm.toml
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# ==========================================
+# IDEs y EDITORES
+# ==========================================
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Atom
+.atom/
+
+# ==========================================
+# SISTEMA OPERATIVO
+# ==========================================
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ==========================================
+# ARCHIVOS TEMPORALES
+# ==========================================
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.~lock.*
+
+# ==========================================
+# ARCHIVOS DE PRUEBA Y DIAGNÓSTICO
+# ==========================================
+diagnostico_*.py
+test_*.py
+prueba_*.py
+debug_*.py
+
+# ==========================================
+# MANTENER ESTRUCTURA DE CARPETAS
+# ==========================================
+# Estos archivos .gitkeep mantienen las carpetas vacías en el repositorio
+!.gitkeep

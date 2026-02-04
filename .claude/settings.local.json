@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(sqlite3:*)",
+      "Bash(build_installer.bat)",
+      "Bash(cmd.exe:*)",
+      "Bash(python verificar_dependencias.py:*)",
+      "Bash(pip install:*)",
+      "Bash(pyinstaller:*)",
+      "Bash(python main.py:*)",
+      "Bash(build_installer_commandline.bat)",
+      "Bash(if exist \"dist\\Celestine.exe\" del /F /Q \"dist\\Celestine.exe\")",
+      "Bash(if exist \"build\" rmdir /S /Q \"build\")",
+      "Bash(if exist \"Celestine.spec\" del /F /Q \"Celestine.spec\")",
+      "Bash(python build_commandline.py:*)",
+      "Bash(dir:*)",
+      "Bash(rm:*)",
+      "Bash(cp:*)",
+      "Bash(python build_v1.2.1_bd_flexible.py:*)",
+      "Bash(cmd /c \"dir /AD /B dist*\")",
+      "Bash(python:*)",
+      "Bash(cat:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
