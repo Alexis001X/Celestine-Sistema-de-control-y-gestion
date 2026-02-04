@@ -323,8 +323,8 @@ Si encuentras un bug, por favor abre un [Issue](https://github.com/tu-usuario/si
 
 ## 📧 Contacto
 
-**Desarrollador**: [Tu Nombre]  
-**Email**: tu-email@ejemplo.com  
+**Desarrollador**: Tnlgo. Alexis Mena  
+**Email**: alexismenadev09@gmail.com 
 **Proyecto**: [https://github.com/tu-usuario/sistema-facturacion-agua](https://github.com/tu-usuario/sistema-facturacion-agua)
 
 ---
